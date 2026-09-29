@@ -1,0 +1,167 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Highlights</title>
+    <link rel="stylesheet" href="highlights.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="site-header">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Stray Kids logo" class="logo-img">
+            <span class="logo-sub">Stay Fan Page</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+            </ul>
+        </nav>
+    </header>
+     <!-- Hero section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span>LARA'S HIGHLIGHTS</span>
+            </h1>
+            <h3>
+                <span>My personal collection of Stray Kids highlights.</span>
+            </h3>
+            <p class="hero-sub">
+                Favourite members, performances, songs, and eras.
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="images/h1_banner.webp" alt="Stray Kids Karma Group Photo">
+        </div>
+    </section>
+
+    <section class="member-highlights">
+        <div class="section-heading">
+            <p class="section-label">LARA'S PICKS</p>
+            <h2>MEMBER HIGHLIGHTS</h2>
+            <p>Click a member to see my favourite photo and performance.</p>
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-track">
+                <!--First set-->
+                <div class="member-card" data-member="bangchan">
+                    <img src="hl_images/bangchan.jpg" alt="Bang Chan">
+                    <p>BANG CHAN</p>
+                </div>
+
+                <div class="member-card" data-member="leeknow">
+                    <img src="hl_images/leeknow.jpg" alt="Lee Know">
+                    <p>LEE KNOW</p>
+                </div>
+
+                <div class="member-card" data-member="changbin">
+                    <img src="hl_images/changbin.jpg" alt="Changbin">
+                    <p>CHANGBIN</p>
+                </div>
+
+                <div class="member-card" data-member="hyunjin">
+                    <img src="hl_images/hyunjin.jpg" alt="Hyunjin">
+                    <p>HYUNJIN</p>
+                </div>
+
+                <div class="member-card" data-member="felix">
+                    <img src="hl_images/felix.webp" alt="Felix">
+                    <p>FELIX</p>
+                </div>
+
+                <div class="member-card" data-member="han">
+                    <img src="hl_images/han.webp" alt="Han">
+                    <p>HAN</p>
+                </div>
+
+                <div class="member-card" data-member="seungmin">
+                    <img src="hl_images/seungmin.webp" alt="Seungmin">
+                    <p>SEUNGMIN</p>
+                </div>
+
+                <div class="member-card" data-member="in">
+                    <img src="hl_images/in.webp" alt="IN">
+                    <p>I.N.</p>
+                </div>
+
+                <!--second set-->
+                <div class="member-card" data-member="bangchan">
+                    <img src="hl_images/bangchan.jpg" alt="Bang Chan">
+                    <p>BANG CHAN</p>
+                </div>
+
+                <div class="member-card" data-member="leeknow">
+                    <img src="hl_images/leeknow.jpg" alt="Lee Know">
+                    <p>LEE KNOW</p>
+                </div>
+
+                <div class="member-card" data-member="changbin">
+                    <img src="hl_images/changbin.jpg" alt="Changbin">
+                    <p>CHANGBIN</p>
+                </div>
+
+                <div class="member-card" data-member="hyunjin">
+                    <img src="hl_images/hyunjin.jpg" alt="Hyunjin">
+                    <p>HYUNJIN</p>
+                </div>
+
+                <div class="member-card" data-member="felix">
+                    <img src="hl_images/felix.webp" alt="Felix">
+                    <p>FELIX</p>
+                </div>
+
+                <div class="member-card" data-member="han">
+                    <img src="hl_images/han.webp" alt="Han">
+                    <p>HAN</p>
+                </div>
+
+                <div class="member-card" data-member="seungmin">
+                    <img src="hl_images/seungmin.webp" alt="Seungmin">
+                    <p>SEUNGMIN</p>
+                </div>
+
+                <div class="member-card" data-member="in">
+                    <img src="hl_images/in.webp" alt="IN">
+                    <p>I.N.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="member-popup" id="memberPU">
+        <div class="popup-card">
+            <button class="close-popup" id="closePU">&times;</button>
+            <img id="popupImage" src="" alt="Member highlight">
+
+            <div class="popup-info">
+                <p class="popup-label">LARA'S HIGHLIGHT</p>
+
+                <h2 id="popupName">MEMBER</h2>
+
+                <p class="performance-label">FAVORITE PERFORMANCE</p>
+
+                <h3 id="popupPerformance">Performance</h3>
+
+                <a id="performanceLink" 
+                href="#" 
+                target="_blank"
+                rel="noopener noreferrer">
+                    WATCH PERFORMANCE ↗
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="highlights.js"></script>
+</body>
+
+</html>
